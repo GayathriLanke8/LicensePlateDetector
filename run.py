@@ -13,7 +13,7 @@ def run():
 
             state_name = extract_text(crop, ocr_model, "data.json")
 
-            print(f"The car belongs to {state_name}")
+            print(f"The car belongs to {state_name} state")
 
 run()
 
