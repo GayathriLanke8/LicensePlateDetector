@@ -20,7 +20,7 @@ def load_image(path3):
     return image
 
 def get_coordinates(image, obj_det):
-    result = obj_det.predict(image)
+    result = obj_det.predict(image, verbose = False)
     x1 = int(result[0].boxes.xyxy.numpy()[0][0])
     y1 = int(result[0].boxes.xyxy.numpy()[0][1])
     x2 = int(result[0].boxes.xyxy.numpy()[0][2])
