@@ -35,7 +35,6 @@ Once a license plate is detected, the project extracts the alphanumeric license 
   python run.py
 
 
-
 ## Results 
 
 * ### License Plate Detection:   
