@@ -2,10 +2,12 @@
 This project uses [OpenCV](https://opencv.org/), [Matplotlib](https://matplotlib.org/), [EasyOCR](https://github.com/JaidedAI/EasyOCR), and a [YOLO (Ultralytics)](https://github.com/ultralytics/ultralytics) object detection model from Ultralytics to detect vehicle license plates from images or video frames.
 Once a license plate is detected, the project extracts the alphanumeric license number using OCR and identifies the Indian state/region of registration based on the first two characters of the plate (e.g., AP → Andhra Pradesh).
 
+🛠️ Tech Stack  
 - OpenCV — Computer vision library for image processing
 - Matplotlib — Plotting and visualization library
 - EasyOCR — Optical character recognition tool  
-- YOLO (Ultralytics) — Object detection model  
+- YOLO (Ultralytics) — Object detection model
+
 
   
 ## Dependencies
