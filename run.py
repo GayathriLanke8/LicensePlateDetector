@@ -1,6 +1,5 @@
 from module import *
 
-
 def run():
     obj_model, ocr_model = load_object("license_plate_detector.pt"), load_ocr()
     for file_name in os.listdir("images"):
