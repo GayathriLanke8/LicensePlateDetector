@@ -36,10 +36,20 @@ Once a license plate is detected, the project extracts the alphanumeric license 
 
 
 
-#Output / Results  
+## Results 
 
-**License Plate Detection**
-![License Plate Detection](detection_img.png)
-License Plate Detection: Shows the detected license plate highlighted with a bounding box on the vehicle.  
-OCR Extraction: The extracted alphanumeric text of the license plate is displayed.  
-State Identification: Displays the corresponding Indian state based on the license plate prefix.  
+* ### License Plate Detection:   
+  The system detects the license plate on the vehicle and highlights it with a bounding box:  
+
+  ![License Plate Detection](detection_img.jpg)  
+
+* ### OCR Extraction:    
+  The detected license plate is processed using EasyOCR to extract the alphanumeric text:  
+
+* ### State Identification:  
+  Based on the first two characters of the plate number, the system identifies the corresponding Indian state:  
+  Example: KL 07 AB 1234 → Kerala  
+
+* ### Output:  
+  The car belongs to Kerela state  
+
