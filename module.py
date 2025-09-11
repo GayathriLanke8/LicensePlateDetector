@@ -6,7 +6,6 @@ import json
 import os
 
 
-
 def load_object(path1):
     model1 = YOLO(path1)
     return model1 
