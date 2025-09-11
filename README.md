@@ -33,3 +33,13 @@ Once a license plate is detected, the project extracts the alphanumeric license 
 
   ```bash
   python run.py
+
+
+
+#Output / Results  
+
+**License Plate Detection**
+![License Plate Detection](detection_img.png)
+License Plate Detection: Shows the detected license plate highlighted with a bounding box on the vehicle.  
+OCR Extraction: The extracted alphanumeric text of the license plate is displayed.  
+State Identification: Displays the corresponding Indian state based on the license plate prefix.  
